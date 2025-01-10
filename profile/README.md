@@ -2,30 +2,33 @@
 
 The **Imaging Server Kit** is an initiative started by the [EPFL Center for Imaging](https://imaging.epfl.ch/) to develop a simple framework for creating and using interoperable image processing algorithms via a client/server system.
 
+![serverkit-schema](./serverkit-schema.png)
+
 The *kit* includes:
 
-- A **collection of algorithms** that can be deployed as web servers (with/without [Docker](https://github.com/Imaging-Server-Kit/serverkit-deploy-docker)) and run from [QuPath](https://github.com/Imaging-Server-Kit/qupath-extension-serverkit), [Napari](https://github.com/Imaging-Server-Kit/napari-serverkit), or a web browser: 
+- A **collection of algorithms** that can be deployed as web servers (with or without [Docker](https://github.com/Imaging-Server-Kit/serverkit-deploy-docker)) and run from [QuPath](https://github.com/Imaging-Server-Kit/qupath-extension-serverkit), [Napari](https://github.com/Imaging-Server-Kit/napari-serverkit), or a web browser: 
   - [StarDist](https://github.com/Imaging-Server-Kit/serverkit-stardist): Object detection with star-convex shapes
   - [CellPose](https://github.com/Imaging-Server-Kit/serverkit-cellpose): A generalist algorithm for cellular segmentation
   - [Spotiflow](https://github.com/Imaging-Server-Kit/serverkit-spotiflow): Accurate and efficient spot detection
   - [Rembg](https://github.com/Imaging-Server-Kit/serverkit-rembg): A tool to remove images background
   - [LoG detector](https://github.com/Imaging-Server-Kit/serverkit-skimage-LoG): Laplacian of Gaussian filter
   - [Orientationpy](https://github.com/Imaging-Server-Kit/serverkit-orientationpy): Measurement of greyscale orientations
+  - ➡️ Many more to come
 
 - A [Template](https://github.com/Imaging-Server-Kit/cookiecutter-serverkit) to easily create new image processing algorithm servers. A wide range of tasks can be *serverized*:
 
-| Task              | Algorithm Output       | Examples                        |
+| Task              | Output       | Examples                        |
 |-------------------|------------------------|---------------------------------|
-| Segmentation      | Segmentation masks     | StarDist, CellPose, Rembg, Ilastik              |
+| Segmentation      | Segmentation masks     | StarDist, CellPose, Rembg              |
 | Object detection  | Bounding boxes, Points | Spotiflow, LoG detector    |
 | Vector fields     | Vector fields          | Orientationpy                   |
-| Image filtering   | Images                 | Registration, denoising algorithms         |
-| Object tracking   | Tracking data          | Trackpy, Trackmate         |
+| Image filtering   | Images                 | Registration, Denoising         |
+| Object tracking   | Tracking data          | Trackpy         |
 
 The *Imaging Server Kit* is designed for:
 
-- **Python Developers, Bioimage Analysts, Data Scientists, and Digital Pathologists**: Test your tools in QuPath or Napari without the hassle of creating extensions/plugins.
-- **Non-technical Users**: Use Python projects without needing to set up Python on your computer.
+- **Algorithm developers**: Test your tools in QuPath or Napari without having to create extensions or plugins.
+- **Non-technical Users**: Use Python projects without needing to set them up on your computer.
 
 ### Key Benefits
 
@@ -40,9 +43,7 @@ The *Imaging Server Kit* is designed for:
 
 **January 2025**
 
-The *Imaging Server Kit* is new, and still under construction! Consider it a miracle if anything works at all 😉.
-
-We have a lot of work to do:
+The *Imaging Server Kit* is under construction! Here is what we're up to:
 
 - [x] Add styling to the algorithm `/info` page
 - [ ] Screencast a tutorial on how to create a new algorithm server
