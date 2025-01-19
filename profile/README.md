@@ -48,7 +48,9 @@ The *Imaging Server Kit* is under construction! Here is what we're up to:
 
 - [x] Add styling to the algorithm `/info` page
 - [ ] Screencast a tutorial on how to create a new algorithm server
+- [ ] Handle tiling and optimize for running on big whole-slide images
 - [ ] Add a `class` output type to support image classifiers
+- [ ] Add a `text` input/output type to support diffusion models and LLMs
 - [ ] Add a timeout to the `/process` endpoint
 - [ ] Add a sample image button in the QuPath extension
 - [ ] QuPath extension can send annotations as algo inputs
@@ -59,6 +61,7 @@ The *Imaging Server Kit* is under construction! Here is what we're up to:
 - Mallory Wittwer, EPFL Center for Imaging (mallory.wittwer@epfl.ch)
 - Edward Andò, EPFL Center for Imaging
 - Maud Barthélémy, EPFL Center for Imaging
+- Florian Aymanns, EPFL Center for Imaging
 
 ## Acknowledgements
 
