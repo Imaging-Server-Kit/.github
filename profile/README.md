@@ -14,6 +14,11 @@ The *kit* includes:
   - [Rembg](https://github.com/Imaging-Server-Kit/serverkit-rembg): A tool to remove images background
   - [LoG detector](https://github.com/Imaging-Server-Kit/serverkit-skimage-LoG): Laplacian of Gaussian filter
   - [Orientationpy](https://github.com/Imaging-Server-Kit/serverkit-orientationpy): Measurement of greyscale orientations
+  - [SPAM](https://github.com/Imaging-Server-Kit/serverkit-spam): Image registration by digital image correlation
+  - [InstanSeg](https://github.com/Imaging-Server-Kit/serverkit-instanseg): Cell and Nucleus segmentation
+  - [Image classification](https://github.com/Imaging-Server-Kit/serverkit-resnet50): Image classification example using a ResNet50 model
+  - [Image captioning](https://github.com/Imaging-Server-Kit/serverkit-blip-captioning): Image captioning example using BLIP
+  - [Stable Diffusion](https://github.com/Imaging-Server-Kit/serverkit-stable-diffusion): Image generation example using Stable Diffusion
   - ➡️ Many more to come
 
 - A [Template](https://github.com/Imaging-Server-Kit/cookiecutter-serverkit) to easily create new image processing algorithm servers. A wide range of tasks can be *serverized*:
@@ -33,25 +38,23 @@ The *Imaging Server Kit* is designed for:
 
 ### Key Benefits
 
-- **Algorithm Interoperability**: Easily compare algorithm outputs or integrate multiple algorithms to build complex workflows.
-- **Containerization**: Deploy algorithms in Docker containers to eliminate dependency conflicts and ensure reproducibility.
-- **Powerful Processing**: Run servers on powerful workstations (e.g., with GPU) and connect via client apps on a laptop.
-- **Easy Collaboration**: Provide collaborators with a server URL and let them try your algorithm.
-- **User-Friendly Interfaces** automatically generated for algorithm parameters in QuPath and Napari.
-- **Effortless Deployment**: Pull a Docker image, then simply start/stop a container to use an algorithm.
+- **Interoperable Algorithms**: Easily compare algorithm outputs or integrate multiple algorithms to build complex workflows.
+- **Generated Interfaces**: Automatically generate UIs for algorithm parameters in QuPath and Napari. No need for separate extensions or plugins!
+- **Processing on a Server**: Run algorithms on a powerful workstation or server (e.g., with GPU) and connect to them via client apps on a laptop.
+- **Easy Deployment**: Pull a Docker image, then simply start/stop a container to use an algorithm.
 
 ## Roadmap
 
-**January 2025**
+**February 2025**
 
 The *Imaging Server Kit* is under construction! Here is what we're up to:
 
 - [x] Add styling to the algorithm `/info` page
+- [X] Add a `class` output type to support image classifiers
+- [X] Add a `text` input/output type to support diffusion models and LLMs
 - [ ] Screencast a tutorial on how to create a new algorithm server
-- [ ] Handle tiling and optimize for running on big whole-slide images
-- [ ] Add a `class` output type to support image classifiers
-- [ ] Add a `text` input/output type to support diffusion models and LLMs
-- [ ] Add a timeout to the `/process` endpoint
+- [ ] Add a server-side timeout to the `/process` endpoint
+- [ ] Handle tiling and optimize for running on whole-slide images
 - [ ] Add a sample image button in the QuPath extension
 - [ ] QuPath extension can send annotations as algo inputs
 - [ ] Make a Fiji plugin
