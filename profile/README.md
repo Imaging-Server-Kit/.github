@@ -26,10 +26,13 @@ The *kit* includes:
 | Task              | Output       | Examples                        |
 |-------------------|------------------------|---------------------------------|
 | Segmentation      | Segmentation masks     | StarDist, CellPose, Rembg              |
+| Classification   | Class label          | ResNet50         |
 | Object detection  | Bounding boxes, Points | Spotiflow, LoG detector    |
-| Vector fields     | Vector fields          | Orientationpy                   |
-| Image filtering   | Images                 | Registration, Denoising         |
 | Object tracking   | Tracking data          | Trackpy         |
+| Vector fields     | Vector fields          | Orientationpy                   |
+| Image-to-Image   | Images                 | Registration, Denoising, depth estimation         |
+| Text-to-Image   | Images          | Stable Diffusion         |
+| Image-to-Text   | Text output          | Image captioning         |
 
 The *Imaging Server Kit* is designed for:
 
