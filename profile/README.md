@@ -7,32 +7,21 @@ The **Imaging Server Kit** is an initiative started by the [EPFL Center for Imag
 
 The *kit* includes:
 
-- A **collection of algorithms** that can be deployed as web servers (with or without [Docker](https://github.com/Imaging-Server-Kit/serverkit-deploy-docker)) and run from [QuPath](https://github.com/Imaging-Server-Kit/qupath-extension-serverkit), [Napari](https://github.com/Imaging-Server-Kit/napari-serverkit), or a web browser: 
-  - [StarDist](https://github.com/Imaging-Server-Kit/serverkit-stardist): Object detection with star-convex shapes
-  - [CellPose](https://github.com/Imaging-Server-Kit/serverkit-cellpose): A generalist algorithm for cellular segmentation
-  - [Spotiflow](https://github.com/Imaging-Server-Kit/serverkit-spotiflow): Accurate and efficient spot detection
-  - [Rembg](https://github.com/Imaging-Server-Kit/serverkit-rembg): A tool to remove images background
-  - [LoG detector](https://github.com/Imaging-Server-Kit/serverkit-skimage-LoG): Laplacian of Gaussian filter
-  - [Orientationpy](https://github.com/Imaging-Server-Kit/serverkit-orientationpy): Measurement of greyscale orientations
-  - [SPAM](https://github.com/Imaging-Server-Kit/serverkit-spam): Image registration by digital image correlation
-  - [InstanSeg](https://github.com/Imaging-Server-Kit/serverkit-instanseg): Cell and Nucleus segmentation
-  - [Image classification](https://github.com/Imaging-Server-Kit/serverkit-resnet50): Image classification example using a ResNet50 model
-  - [Image captioning](https://github.com/Imaging-Server-Kit/serverkit-blip-captioning): Image captioning example using BLIP
-  - [Stable Diffusion](https://github.com/Imaging-Server-Kit/serverkit-stable-diffusion): Image generation example using Stable Diffusion
-  - ➡️ Many more to come
+- A **collection of algorithms** that can be deployed as web servers (with or without [Docker](https://github.com/Imaging-Server-Kit/serverkit-deploy-docker)) and run from [QuPath](https://github.com/Imaging-Server-Kit/qupath-extension-serverkit) or [Napari](https://github.com/Imaging-Server-Kit/napari-serverkit), for a wide range of tasks:
+ 
+| Task              | Examples                        |
+|-------------------|---------------------------------|
+| Segmentation     | [StarDist](https://github.com/Imaging-Server-Kit/serverkit-stardist), [CellPose](https://github.com/Imaging-Server-Kit/serverkit-cellpose), [Rembg](https://github.com/Imaging-Server-Kit/serverkit-rembg),[SAM-2](https://github.com/Imaging-Server-Kit/serverkit-sam2), [InstanSeg](https://github.com/Imaging-Server-Kit/serverkit-instanseg)               |
+| Classification   | [ResNet50](https://github.com/Imaging-Server-Kit/serverkit-resnet50)         |
+| Object detection | [Spotiflow](https://github.com/Imaging-Server-Kit/serverkit-spotiflow), [LoG detector](https://github.com/Imaging-Server-Kit/serverkit-skimage-LoG)    |
+| Object tracking  | [Trackastra](https://github.com/Imaging-Server-Kit/serverkit-trackastra), [Trackpy](https://github.com/Imaging-Server-Kit/serverkit-trackpy)         |
+| Vector fields   | [Orientationpy](https://github.com/Imaging-Server-Kit/serverkit-orientationpy)                   |
+| Image-to-Image  | [SPAM](https://github.com/Imaging-Server-Kit/serverkit-spam), [Noise2Void](https://github.com/Imaging-Server-Kit/serverkit-n2v)         |
+| Text-to-Image   | [Stable Diffusion](https://github.com/Imaging-Server-Kit/serverkit-stable-diffusion)         |
+| Image-to-Text   | [Image captioning](https://github.com/Imaging-Server-Kit/serverkit-blip-captioning)         |
 
-- A [Template](https://github.com/Imaging-Server-Kit/cookiecutter-serverkit) to easily create new image processing algorithm servers. A wide range of tasks can be *serverized*:
+- A [Template](https://github.com/Imaging-Server-Kit/cookiecutter-serverkit) to easily create new image processing algorithm servers.
 
-| Task              | Output       | Examples                        |
-|-------------------|------------------------|---------------------------------|
-| Segmentation      | Segmentation masks     | StarDist, CellPose, Rembg              |
-| Classification   | Class label          | ResNet50         |
-| Object detection  | Bounding boxes, Points | Spotiflow, LoG detector    |
-| Object tracking   | Tracking data          | Trackpy         |
-| Vector fields     | Vector fields          | Orientationpy                   |
-| Image-to-Image   | Images                 | Registration, Denoising, depth estimation         |
-| Text-to-Image   | Images          | Stable Diffusion         |
-| Image-to-Text   | Text output          | Image captioning         |
 
 The *Imaging Server Kit* is designed for:
 
