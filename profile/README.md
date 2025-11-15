@@ -27,17 +27,17 @@ The documentation is available on [this page](https://imaging-server-kit.github.
 
 | Task              | Examples                        | Napari | QuPath |
 |-------------------|---------------------------------| ------ | ------ |
-| Image segmentation | [CellPose](./examples/serverkit-cellpose/), [StarDist](./examples/serverkit-stardist/), [Instanseg](./examples/serverkit-instanseg/), [SAM-2](./examples/serverkit-sam2/), [Rembg](./examples/serverkit-rembg/), [CellPose4 (GPU)](./examples/serverkit-cellpose4_gpu/) | ✅ | ✅ |
-| Points detection | [Spotiflow](./examples/serverkit-spotiflow/) | ✅ | ✅ |
-| Boxes detection | [Ultralytics YOLO](./examples/serverkit-yolo/) | ✅ | ✅ |
-| Vectors detection | [OrientationPy](./examples/serverkit-orientationpy/) | ✅ | ✅ |
-| Image registration | [StackReg](./examples/serverkit-stackreg/), [Spam](./examples/serverkit-spam/) | ✅ |  |
-| Image denoising | [Noise2Void](./examples/serverkit-n2v/) | ✅ |  |
-| Paths detection | [SplineBox](./examples/serverkit-splinebox/) | ✅ |  |
-| Tracking | [Trackpy](./examples/serverkit-trackpy/), [Trackastra](./examples/serverkit-trackastra/) | ✅ |  |
-| Image generation | [Stable Diffusion](./examples/serverkit-stable-diffusion/) | ✅ |  |
-| Image-to-text | [ResNet50](./examples/serverkit-resnet50/), [BLIP captioning](./examples/serverkit-blip-captioning/) | ✅ |  |
-| Live updates | [Webcam stream](./examples/serverkit-webcam/) | ✅ |  |
+| Image segmentation | [CellPose](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-cellpose), [StarDist](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-stardist), [Instanseg](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-instanseg), [SAM-2](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-sam2), [Rembg](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-rembg), [CellPose4 (GPU)](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-cellpose4_gpu) | ✅ | ✅ |
+| Points detection | [Spotiflow](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-spotiflow) | ✅ | ✅ |
+| Boxes detection | [Ultralytics YOLO](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-yolo) | ✅ | ✅ |
+| Vectors detection | [OrientationPy](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-orientationpy) | ✅ | ✅ |
+| Image registration | [StackReg](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-stackreg), [Spam](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-spam) | ✅ |  |
+| Image denoising | [Noise2Void](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-n2v) | ✅ |  |
+| Paths detection | [SplineBox](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-splinebox) | ✅ |  |
+| Tracking | [Trackpy](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-trackpy), [Trackastra](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-trackastra) | ✅ |  |
+| Image generation | [Stable Diffusion](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-stable-diffusion) | ✅ |  |
+| Image-to-text | [ResNet50](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-resnet50), [BLIP captioning](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-blip-captioning) | ✅ |  |
+| Live updates | [Webcam stream](https://github.com/Imaging-Server-Kit/extra-examples/blob/main/examples/serverkit-webcam) | ✅ |  |
 
 ## Roadmap
 
